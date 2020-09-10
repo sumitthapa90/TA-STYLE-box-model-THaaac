@@ -13,3 +13,62 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Assignment 6</title>
+  </head>
+  <body>
+    <h1>The Box Model, Box-sizing & Box Shadow</h1>
+    <hr />
+
+    <h2>Exercise 1</h2>
+    <div class="box"></div>
+    <div class="fullbox">
+      <div class="circle"><h6>Content</h6></div>
+      <div class="circle circle2"><h6>Padding</h6></div>
+      <div class="circle circle3"><h6>Border</h6></div>
+      <div class="circle circle4"><h6>Margin</h6></div>
+    </div>
+
+    <hr />
+    <div>
+      <h2>Exercise 2</h2>
+
+      <h4>no border on these boxes.</h4>
+      <div class="container">
+        <div class="box-small"></div><!--  
+        --><div class="box-small"></div><!--  
+        --><div class="box-small"></div>
+      </div>
+    </div>
+
+ <hr />
+    <div>
+      <!-- <h2>Exercise 2</h2> -->
+      <h4>1px border on these boxes.</h4>
+      <div class="container">
+        <div>
+          <div class="box-small box-border"></div><!--  
+          --><div class="box-small box-border"></div>
+        </div>
+        
+        <div class="box-small box-border"></div>
+      </div>
+
+      <hr />
+    <div>
+      <!-- <h2>Exercise 2</h2> -->
+      <h4>1px border on these boxes but they are in same line.</h4>
+      <div class="container">
+          <div class="box-small box-border"></div><!--  
+          --><div class="box-small box-border"></div><!--  
+          --><div class="box-small box-border"></div>       
+      </div>
+      
+    </div>
+  </body>
+</html>
